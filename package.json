@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/joao3101/qr-node#readme",
   "dependencies": {
-    "qrcode": "^1.4.4"
+    "express-session": "^1.17.0",
+    "qrcode": "^1.4.4",
+    "session-memory-store": "^1.0.0"
   }
 }
