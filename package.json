@@ -1,0 +1,30 @@
+{
+  "name": "qr-node",
+  "version": "1.0.0",
+  "description": "Node application that creates a printable html and gives a forwarding to this.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao3101/qr-node.git"
+  },
+  "keywords": [
+    "QR",
+    "Code",
+    "QR",
+    "QRCode",
+    "2D",
+    "Code"
+  ],
+  "author": "João Victor de Carvalho Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joao3101/qr-node/issues"
+  },
+  "homepage": "https://github.com/joao3101/qr-node#readme",
+  "dependencies": {
+    "qrcode": "^1.4.4"
+  }
+}
