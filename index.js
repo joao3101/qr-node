@@ -35,12 +35,12 @@ let revision = config.qualidade.revision;
 let validade = config.qualidade.validade;
 
 async function run() {
-    const res = await qrcode.toDataURL('pdf.html');
+    const res = await qrcode.toDataURL(`${config.url}/pdf.html`);
     
-    fs.writeFileSync('./qr.html', res)
-    fs.writeFileSync('./pdf.html', util.html(cert, codFabr, res, nomeCliente, enderecoCliente, telCliente, emailCliente, codigoProduto, descProduto, mptProduto, mprProduto, 
+    fs.writeFileSync('/var/www/html/qr.html', res)
+    fs.writeFileSync('/var/www/html/pdf.html', util.html(cert, codFabr, res, nomeCliente, enderecoCliente, telCliente, emailCliente, codigoProduto, descProduto, mptProduto, mprProduto, 
         dixdeProduto, mrcProduto, pesoProduto, temperaturaProduto, pressaoTeste, dataTeste, tempoTeste, qtdMangueiras, mangueirasTestadas, comprimento,
         nfe, dataNfe, normas, terminais, material, formulario, revision, validade));
-    console.log('Wrote to ./qr.html');
-    console.log('Wrote to ./pdf.html');
+    console.log('Wrote to /var/www/html/qr.html');
+    console.log('Wrote to /var/www/html/pdf.html');
 }

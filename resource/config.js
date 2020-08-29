@@ -56,6 +56,8 @@ const fabricacao = {
     'id': 199510792
 }
 
+const url = 'http://ec2-54-166-239-236.compute-1.amazonaws.com';
+
 const config = { 
     'cliente': cliente,
     'produto': produto,
@@ -66,7 +68,8 @@ const config = {
     'material': material,
     'qualidade': qualidade,
     'certificado': certificado,
-    'fabricacao': fabricacao
+    'fabricacao': fabricacao,
+    'url': url
 }
 
 module.exports = config
