@@ -1,13 +1,13 @@
 const cliente = {
-    "nomeCliente": "SOLETECNICA EQUIPAMENTOS HIDRAULICOS - EIRELI - EPP",
-    "enderecoCliente": "Rua São Salvador - 134 - Centro - Pinhais - PR",
-    "telCliente": "(041)3657-2681",
-    "emailCliente": "contato@soletecnica.com.br"
+    "nomeCliente": "Nome x",
+    "enderecoCliente": "Endereço X",
+    "telCliente": "x",
+    "emailCliente": "z"
 }
 
 const produto = {
     codigoProduto: 'SRV',
-    descProduto: 'mqtt://10.90.62.150',
+    descProduto: 'prod',
     mptProduto: '720 bar ( 10440 PSI)',
     mprProduto: '2880 bar (41760 PSI)',
     dixdeProduto: '6,4 x 12,5 mm',
